@@ -1,8 +1,28 @@
 {% block connent %}
 <h1>로그인</h1>
-<form action="{% url 'account:login' %}" method="POST">
-    {% csrf_token %}
-    {{form.as_p}}
-    <button type="submit">로그인</button>
-  </form>
+<form method="POST" action="{% url 'login' %}">
+  {% csrf_token %}
+  <p>username</p>
+  <input type="text" name="username">
+  <br>
+  <p>password</p>
+  <input type="text" name="password">
+  <br>
+  <div>
+    {% if messages %}
+
+    <ul class="messages">
+    
+        {% for message in messages %}
+    
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    
+        {% endfor %}
+    
+    </ul>
+    
+    {% endif %}
+  </div>
+  <input type="submit" value="로그인">
+</form>
 {% endblock %}
