@@ -26,6 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'account',
+    'lunch',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -109,6 +111,7 @@ USE_TZ = True
 import os
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # base_dir은 프로젝트 폴더
+    os.path.join(BASE_DIR, 'lunchmate','static'),  # base_dir은 프로젝트 폴더
 ]
  
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
