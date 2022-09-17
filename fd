@@ -1,0 +1,23 @@
+[33mcommit 8b500fb23292ec980e4c5dfc6c49e1c16fbef0e8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jeong Yujae <morrisrt6851@naver.com>
+Date:   Thu Sep 15 17:20:46 2022 +0900
+
+    calender 1/3
+
+[33mcommit 152f03b3245bbfe4755da60db47a986263871dfd[m
+Author: Jeong Yujae <morrisrt6851@naver.com>
+Date:   Wed Sep 14 22:43:20 2022 +0900
+
+    basic html + bootstrap setup
+
+[33mcommit 61088bd960d1cf6adb68f6cd5d22e99c3f826020[m
+Author: Jeong Yujae <morrisrt6851@naver.com>
+Date:   Mon Sep 12 23:04:19 2022 +0900
+
+    signup + login/logout
+
+[33mcommit 947e7cba84ac6c6a9b4c1f889b54b02ffe6413c8[m
+Author: Jeong Yujae <morrisrt6851@naver.com>
+Date:   Mon Sep 12 21:09:59 2022 +0900
+
+    first commit
