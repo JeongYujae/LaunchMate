@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('',views.index, name='index' ),
-    path('calender', views.calender, name='calendar')
+    path('calender', views.calender, name='calendar'),
+    path('select', views.select, name='select')
     
 ]
